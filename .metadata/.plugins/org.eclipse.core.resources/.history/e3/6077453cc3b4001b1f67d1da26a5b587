@@ -1,0 +1,13 @@
+
+public class Runner {
+
+	public static void main(String[] args) {
+		System.out.println("Hello World");
+		System.out.println("How are you?");
+		System.out.println("I'm well, thank you and yourself");
+		System.out.println("I am fantastic");
+		
+	}
+
+}
+// the one rule you must remember is the name of the file must be the name of the class 

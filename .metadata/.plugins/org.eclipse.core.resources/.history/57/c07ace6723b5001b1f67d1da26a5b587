@@ -1,0 +1,25 @@
+package com.qa.starterworld;
+public class Runner {
+
+	public static void main(String[] args) {
+		//int result = 5;
+		//System.out.println(result);
+		String exampleVar = "Hello World";
+	public static int id; 
+		
+		//int num1 = 3;
+		//int num2 = 4;
+		//int result = num1 + num2;
+		System.out.println(id);
+		
+		//System.out.println("exammpleVar");
+	}
+
+}
+
+//class member? anything that belongs to the scope{} of the class. 
+// a method is a member, attributes are a member 
+// the one rule you must remember is the name of the file must be the name of the class
+
+
+// 

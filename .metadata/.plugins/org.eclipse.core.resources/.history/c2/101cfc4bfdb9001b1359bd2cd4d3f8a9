@@ -1,0 +1,51 @@
+package com.qa.java.basics.classes;
+
+public abstract class Vehicles {
+
+	
+	public String name; 
+	public int year; 
+	public String fuelType;
+	public String color;
+	public int maxSpeed;
+	public int price;
+	
+	
+
+
+
+	//Constructor
+	public Vehicles(int year, String name, String color, int price) {
+		this.year = year;
+		this.name = name;
+		this.color = color;
+		this.price = price;
+	}
+	//methods - drive(turn on,accelerate, turn left, turn right, reverse, park, turn off)
+	
+	public abstract void start();
+
+	public abstract void accelerate();
+	
+	public abstract void reverse();
+	
+	public abstract void park();
+	
+	public abstract void turnLeft();
+	
+	public abstract void turnRight();
+	
+	public abstract void turnOff();
+	public void run () {
+		start();
+		reverse();
+		turnLeft();
+		accelerate();
+		turnLeft();
+		turnRight();
+		park();
+		turnOff();
+		
+	}
+	
+}

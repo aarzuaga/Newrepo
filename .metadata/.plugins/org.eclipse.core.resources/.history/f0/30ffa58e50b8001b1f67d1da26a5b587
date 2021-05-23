@@ -1,0 +1,14 @@
+package com.qa.java;
+
+import com.qa.java.basics.Sprinter;
+
+public class Runner {
+
+	public static void main(String[] args) {
+		Grid.print(); 
+
+		
+	}
+
+
+	

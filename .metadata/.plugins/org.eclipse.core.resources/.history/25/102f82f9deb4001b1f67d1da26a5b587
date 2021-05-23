@@ -1,0 +1,20 @@
+package com;
+
+public class Runner {
+
+	public static void main(String[] args) {
+		String exampleVar = "Hello World";
+		
+		int num1 = 3;
+		int num2 = 4;
+		int result = num1 + num2;
+		System.out.println(result);
+		
+		System.out.println("exammpleVar");
+	}
+
+}
+// the one rule you must remember is the name of the file must be the name of the class
+
+
+// 

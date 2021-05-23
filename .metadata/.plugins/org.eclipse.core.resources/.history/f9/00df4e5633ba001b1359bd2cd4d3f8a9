@@ -1,0 +1,48 @@
+package com.qa.java;
+
+import com.qa.java.basics.classes.Cars;
+import com.qa.java.basics.classes.Motorcycles;
+import com.qa.java.basics.classes.Person;
+import com.qa.java.basics.classes.Trucks;
+
+public class Runner {
+
+
+	public static void main(String[] args) {
+		System.out.println("start");
+		Person bob = new Person("bob", 32, "Male");
+		//Person charla = new Person("Charlotte", 28, "Female");
+
+		System.out.println(bob.gender);
+		//System.out.println(bob.read());
+		// bob.read(new Book("title"));
+		// Books history = new Books();
+		// wrapper classes within primitive data type
+		// runner class=<runner data type
+		// wrapper rules: no default val. only null and they start with Uppercase
+
+		Cars car1 = new Cars(2014, "Ford Focus", "silver", 3199);
+		car1.setId(2);
+		Cars car2 = new Cars(2018, "Jeep Compass", "black", 21236);
+		car2.setId(1);
+		
+		Motorcycles moto1 = new Motorcycles(2011, "Yamaha ji-650", "white", 1575);
+		moto1.setId(4);
+		Motorcycles moto2 = new Motorcycles(2020, "Suzuki RJ1200", "pearl white", 13299);
+		moto2.setId(3);
+		
+		Trucks trk1 = new Trucks(2018, "Dodge Ram 1500", "red", 32000);
+		trk1.setId(5);
+		Trucks trk2 = new Trucks(2002, "Ford F-150", "blue", 2700);
+		trk2.setId(6);
+		
+		trk1.run();
+		moto2.run();
+
+
+		
+		
+		System.out.println("finish");
+	}
+
+}

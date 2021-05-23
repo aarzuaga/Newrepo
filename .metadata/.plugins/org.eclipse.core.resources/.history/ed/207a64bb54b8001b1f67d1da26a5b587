@@ -1,0 +1,38 @@
+package com.qa.java.basics.classes;
+
+public class Person {
+
+	public String name;
+	public float height;
+	public int age;
+	public String eyeColor;
+	public String ethnicity;
+	public String gender;
+	public boolean isBreathing;
+	public int walkSpeed = 30;
+	public String speak;
+	
+	//Constructor 
+	public Person(String name, int age, String gender) {
+			
+		this.name = name;
+		this.age = age;
+		this.gender = gender;
+		
+	}
+	
+	public static void read() {
+		System.out.println("{name} is reading the book title {given}");
+	}
+	public boolean isStillBreathing() {
+		return isBreathing; 
+	}
+	public String speak(String msg) {
+		return this.name + " says: " + msg;
+	}
+	public int walk() {
+		return walkSpeed;
+		
+	
+}
+}

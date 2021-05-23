@@ -1,0 +1,36 @@
+package com.qa;
+
+import java.util.ArrayList;
+
+public class Runner {
+
+	public static void main(String[] args) {
+		System.out.println("Start");
+		
+		Car car1 = new Car(2014, "Ford Focus", "silver", 3199);
+		car1.setId(1);
+		Car car2 = new Car(2018, "Jeep Compass", "black", 21236);
+		car2.setId(2);
+		
+		Motorcycle moto1 = new Motorcycle(2011, "Yamaha ji-650", "white", 1575);
+		moto1.setId(3);
+		Motorcycle moto2 = new Motorcycle(2020, "Suzuki RJ1200", "pearl white", 13299);
+		moto2.setId(4);
+		
+		Truck trk1 = new Truck(2018, "Dodge Ram 1500", "red", 32000);
+		trk1.setId(5);
+		Truck trk2 = new Truck(2002, "Ford F-150", "blue", 2700);
+		trk2.setId(6);
+		
+		car1.run();
+		
+		ArrayList<String> garage = new ArrayList<String>();
+		garage.add(0, trk2.getId(6));
+
+		System.out.println(garage.get(0));
+
+		System.out.println("Finish");
+		
+	}
+		
+}

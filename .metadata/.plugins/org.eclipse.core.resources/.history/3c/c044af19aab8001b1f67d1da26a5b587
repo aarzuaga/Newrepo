@@ -1,0 +1,38 @@
+package com.qa.java;
+
+import com.qa.java.basics.classes.Person;
+
+public class Runner {
+
+	public static String x = "Cat";
+	public static Object y = "Dog";
+
+	public static void main(String[] args) {
+		System.out.println("start");
+		Person bob = new Person("bob", 32, "Male");
+		Person personVar = new Person("Charlotte", 28, "Female");
+
+		System.out.println(bob.gender);
+		System.out.println(bob.read("cook books"));
+
+		// bob.read(new Book("title"));
+		// Books history = new Books();
+		// wrapper classes within primitive data type
+		// runner class=<runner data type
+		// wrapper rules: no default val. only null and they start with Uppercase
+
+		Integer y = 0;
+
+		System.out.println(x.replace("Cat", "Car"));
+
+		String str1 = "yesterday it was raining";
+		String str2 = "today it was sunny";
+		System.out.println(str2.toUpperCase() + "," + str1.toUpperCase());
+		
+		String mySubString1 = str2.substring(0, 11);
+		System.out.println(mySubString1);
+
+		System.out.println("finish");
+	}
+
+}

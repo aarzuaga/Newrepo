@@ -1,0 +1,18 @@
+package com.qa.java;
+
+import com.qa.java.basics.classes.Person;
+
+public class Runner {
+
+	public static void main(String[] args) {
+		System.out.println("start");
+		Person bob = new Person("bob", 32, "Male");
+
+		System.out.println(bob.speak("Hello"));
+		System.out.println(bob.read("Cook bookss"));
+		
+		
+		System.out.println("finish");
+	}
+
+}

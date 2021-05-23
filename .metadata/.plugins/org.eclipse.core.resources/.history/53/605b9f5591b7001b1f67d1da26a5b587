@@ -1,0 +1,62 @@
+package com.qa.java;
+
+import com.qa.java.basics.Sprinter;
+
+public class Runner {
+
+	public static void main(String[] args) {
+		System.out.println("Hello World");
+		int lines;
+		lines = Sprinter.div(8, 2);
+		if (lines > 3) {
+		System.out.println("Correct");
+	}
+	System.out.println(lines);
+
+	}
+
+	public static void printThese(int num1, int num2) {
+	System.out.println(num1);
+	System.out.println(num2);
+
+	}
+
+	public static int add(int num1, int num2) {
+	return num1 + num2;
+
+	
+	}
+
+	public static void main3(Strings[] args) {
+		int day = 1;
+
+		switch (day) {
+		case 1:
+			System.out.println("Monday");
+			break;
+		case 2:
+			System.out.println("Tuesday");
+			break;
+		case 3:
+			System.out.println("Wednesday");
+			break;
+		case 4:
+			System.out.println("Thursday");
+			break;
+		case 5:
+			System.out.println("Friday");
+			break;
+		case 6:
+			System.out.println("Saturnday");
+			break;
+		case 7:
+			System.out.println("Sunday");
+			break;
+		}
+		
+	}
+	public static void main2(String[] args) {
+		
+	}
+
+}

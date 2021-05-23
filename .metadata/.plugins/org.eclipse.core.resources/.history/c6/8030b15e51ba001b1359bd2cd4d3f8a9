@@ -1,0 +1,16 @@
+package com.qa.java.basics.classes;
+
+import java.util.ArrayList;
+
+public class Garage {
+	
+	ArrayList<String> Garage = new ArrayList<String>(); 
+	Vehicles.add("car1");
+	Vehicles.add("car");
+	Vehicles.add("moto1");
+	Vehicles.add("moto2");
+	Vehicles.add("trk1");
+	Vehicles.add("trk2");
+
+	
+}

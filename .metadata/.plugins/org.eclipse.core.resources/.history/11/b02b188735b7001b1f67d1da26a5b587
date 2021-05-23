@@ -1,0 +1,13 @@
+package com.java.testing;
+
+public class Sprinter {
+
+	private static int add;
+
+	public static int add( int num1, int num2) {
+		Sprinter.add = 8 + 8; 
+		
+		System.out.println("return");
+	}
+
+}

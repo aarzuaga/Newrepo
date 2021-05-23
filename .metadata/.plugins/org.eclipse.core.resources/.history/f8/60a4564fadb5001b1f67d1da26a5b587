@@ -1,0 +1,36 @@
+package com.qa.starterworld;
+
+public class Runner {
+
+	public static int id;
+	public static String msg = "Hello World";
+
+	public static void main(String[] args) {
+		int result; 
+		result = 546 % 34;
+		
+		System.out.println(result);
+		//printThese(4, 21);
+
+	
+	}	
+	
+	public static void printThese(int num1, int num2) {
+		System.out.println(num1);
+		System.out.println(num2);
+		
+	}
+	public static int add(int num1, int num2) {
+		return num1 + num2;
+	
+
+	}
+
+}
+
+//class member? anything that belongs to the scope{} of the class. 
+// a method is a member, attributes are a member 
+// the one rule you must remember is the name of the file must be the name of the class
+// global variables are outside of all scopes 
+
+// methods 

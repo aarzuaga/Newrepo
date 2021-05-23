@@ -1,0 +1,42 @@
+package com.qa.java.basics.classes;
+
+public class Person {
+
+	public String name;
+	public float height;
+	public int age;
+	public String eyeColor;
+	public String ethnicity;
+	public String gender;
+	public boolean isBreathing;
+	public int walkSpeed = 30;
+	public String speak;
+	
+	//Constructor 
+	public Person(String name, int age, String gender) {
+			
+		this.name = name;
+		this.age = age;
+		this.gender = gender;
+		
+	}
+	
+	public String read(String book) {
+		System.out.println(this.name + "is reading the book titled" );
+		return this.name + " is reading " + book; 
+		
+	
+	}
+	public boolean isStillBreathing() {
+		return isBreathing; 
+	}
+	public String speak(String msg) {
+		return this.name + " says: " + msg;
+	}
+	public int walk() {
+		return walkSpeed;
+		
+	
+	}
+}
+//static does not work well with the "new" keyword

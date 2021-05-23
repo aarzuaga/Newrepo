@@ -1,0 +1,19 @@
+package com.qa.java;
+
+import com.qa.java.basics.Sprinter;
+import com.qa.java.basics.classes.Person;
+
+public class Runner {
+
+	public static void main(String[] args) {
+		System.out.println("start");
+		Person bob = new Person();
+		
+		System.out.println("finish");
+		
+		
+
+		
+	}
+
+}

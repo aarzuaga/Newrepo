@@ -1,0 +1,30 @@
+package com.qa.java;
+
+public class Calculator {
+
+	public static void add(int num1, int num2) {
+
+		int result = num1 + num2;
+		System.out.println("result");
+
+	}
+	
+	//public static void minus(int i, int j) {
+		//int result = i-j;
+		//System.out.println("result");
+
+	//}
+
+	//public static void multiply(int i, int j) {
+		//int result = i*j;
+		//System.out.println("result");
+
+	//}
+	//public static void divide(int i, int j) {
+		//int result = i/j;
+		//System.out.println("result");
+	//}
+
+}
+
+

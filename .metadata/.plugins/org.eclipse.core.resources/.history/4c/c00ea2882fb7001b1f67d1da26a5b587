@@ -1,0 +1,56 @@
+package com.qa.java;
+
+public class Calculator {
+
+	public static void add(int num1, int num2) {
+
+		num1 = 4;
+		num2 = 8;
+		
+		int result = num1 + num2;
+		System.out.println("return");
+
+	}
+	
+	public static void minus(int num1, int num2) {
+
+		num1 = 4;
+		num2 = 8;
+		
+		int result = num1 - num2;
+		System.out.println("return");
+
+	}
+
+	public static void multiply(int num1, int num2) {
+
+		num1 = 4;
+		num2 = 8;
+		
+		int result = num1 * num2;
+		System.out.println("return");
+
+	}
+	
+	public static void divide(int num1, int num2) {
+
+		num1 = 8;
+		num2 = 4;
+		
+		int result = num1 / num2;
+		System.out.println("return");
+
+	}
+	public static void modulus(int num1, int num2) {
+
+		num1 = 9;
+		num2 = 8;
+		
+		int result = num1 % num2;
+		System.out.println("return");
+
+	}
+}
+
+
+

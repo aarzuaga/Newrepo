@@ -1,0 +1,15 @@
+package com.qa;
+
+import java.util.ArrayList;
+
+public interface Garage {
+
+	ArrayList<Vehicles> garage = new ArrayList<Vehicles>();
+		garage.add(car1);
+	
+	//default void vehicleIteration() {}
+		
+		
+		
+		
+}

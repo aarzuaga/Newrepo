@@ -1,0 +1,101 @@
+package com.qa.java;
+
+import com.qa.java.basics.Sprinter;
+
+public class Runner {
+
+	public static void main(String[] args) {
+		System.out.println("Hello World");
+		double lines;
+		lines = Sprinter.div(8, 2);
+		if (lines > 3) {
+			System.out.println("Correct");
+		}
+		System.out.println(lines);
+
+	}
+
+	public static void printThese(int num1, int num2) {
+		System.out.println(num1);
+		System.out.println(num2);
+
+	}
+
+	public static int add(int num1, int num2) {
+		return num1 + num2;
+
+	}
+
+	//public static void main3(Strings[] args) {
+		//int day = 1;
+
+		//switch (day) {
+		//case 1:
+			//System.out.println("Monday");
+			//break;
+		//case 2:
+			//System.out.println("Tuesday");
+			//break;
+		//case 3:
+			//System.out.println("Wednesday");
+			//break;
+		//case 4:
+			//System.out.println("Thursday");
+			//break;
+		//case 5:
+			//System.out.println("Friday");
+			//break;
+		//case 6:
+			//System.out.println("Saturday");
+			//break;
+		//case 7:
+			//System.out.println("Sunday");
+			//break;
+		//}
+
+	//}
+
+	public static void main2(String[] args) {
+		int number = 10;
+		if (number >= 10) {
+			System.out.println("Number is equal to 10");
+
+		} else {
+			System.out.println("Number is not equal to 10");
+
+		}
+
+	}
+	
+	public static void main4(String[] args) {
+		
+		int value = 7;
+		
+		int[] values; 
+		
+		values = new int[3];
+		
+		System.out.println(values[0]); 
+		
+		values[0] = 10;
+		
+		System.out.println(values[0]); 
+		System.out.println(values[1]); 
+		System.out.println(values[2]); 
+		
+		
+	}
+
+}
+
+//Create a method which accepts 3 parameters, 2 integers and a boolean.
+
+//If the boolean is true, the method will return a sum of the two numbers, and it if is false it will return the multiplication of the two numbers.
+//For example:
+
+//Input (1, 2, true) -> 3
+//Input (3, 3, false) -> 9
+//Input (1, 1, true) -> 2
+
+
+

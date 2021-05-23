@@ -1,0 +1,11 @@
+package com.java.testing;
+
+public class Sprinter {
+
+	public static void main(String[] args) {
+		int return = 8 + 8; 
+		
+		System.out.println("return");
+	}
+
+}
